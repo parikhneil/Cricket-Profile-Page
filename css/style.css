@@ -1,25 +1,33 @@
+html {
+	font-size: 62.5%;
+}
+
 body {
 	background-color: #999;
 	font-family: "Roboto", sans-serif;
 }
 
+.banner {
+	display: flex;
+}
+
 .profilepicture img {
 	border-radius: 100px;
-	width: 450px;
-	height: 450px;
+	width: 40rem;
+	height: 40rem;
 	border: 10px black solid;
 }
 
 .profilepicture {
 	display: flex;
 	justify-content: center;
-	margin-top: 10rem;
+	margin-top: 20rem;
 }
 
 .playername {
 	font-family: "Suez One";
 	color: white;
 	font-weight: 700;
-	font-size: 125px;
+	font-size: 12.5rem;
 	margin-left: 4rem;
 }
