@@ -5,14 +5,15 @@ body {
 
 .profilepicture img {
 	border-radius: 100px;
-	width: 450px;
-	height: 450px;
+	width: 20rem;
+	height: 20rem;
 	border: 10px black solid;
 }
 
 .profilepicture {
 	display: flex;
 	justify-content: center;
+    align-items: center;
 	margin-top: 10rem;
 }
 
