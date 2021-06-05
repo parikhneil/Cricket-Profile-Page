@@ -12,15 +12,14 @@ body {
 
 .profilepicture {
 	display: flex;
-}
-
-.profilepicture p {
-	font-family: "Suez One";
-	font-size: 50px;
-	color: white;
-	margin-top: 5rem;
+	justify-content: center;
+	margin-top: 10rem;
 }
 
 .playername {
+	font-family: "Suez One";
+	color: white;
 	font-weight: 700;
+	font-size: 125px;
+	margin-left: 4rem;
 }
