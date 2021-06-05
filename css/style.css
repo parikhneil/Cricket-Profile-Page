@@ -4,19 +4,14 @@ body {
 }
 
 .profilepicture img {
-	border-radius: 80px;
+	border-radius: 100px;
+	width: 450px;
+	height: 450px;
+	border: 10px black solid;
 }
 
 .profilepicture {
-	display: flex;    
-}
-
-.playerpicture {
-    border: 5px solid #555;
-}
-
-.playername {
-    font-weight: 700;    
+	display: flex;
 }
 
 .profilepicture p {
@@ -24,4 +19,8 @@ body {
 	font-size: 50px;
 	color: white;
 	margin-top: 5rem;
+}
+
+.playername {
+	font-weight: 700;
 }
