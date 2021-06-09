@@ -15,11 +15,14 @@ body {
 
 .profile {
 	display: flex;
+	position: relative;
 	justify-content: center;
 	margin-top: 20rem;
 }
 
 .profile-picture {
+	position: relative;
+	bottom: 420px;
 	border-radius: 100px;
 	width: 40rem;
 	height: 40rem;
@@ -27,8 +30,10 @@ body {
 }
 
 .profile-name {
+	position: relative;
+	bottom: 420px;
 	font-family: "Suez One";
-	color: white;
+	color: black;
 	font-weight: 700;
 	font-size: 12.5rem;
 	margin-left: 4rem;
