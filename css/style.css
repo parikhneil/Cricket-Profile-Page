@@ -9,26 +9,24 @@ body {
 }
 
 .banner-image {
-	display: absolute;
-	bottom: 500px;
-	width: 100vw;
+	position: relative;
+	width: 100%;
 }
 
-.profilepicture img {
-	display: absolute;
+.profile {
+	display: flex;
+	justify-content: center;
+	margin-top: 20rem;
+}
+
+.profile-picture {
 	border-radius: 100px;
 	width: 40rem;
 	height: 40rem;
 	border: 10px black solid;
 }
 
-.profilepicture {
-	display: flex;
-	justify-content: center;
-	margin-top: 20rem;
-}
-
-.playername {
+.profile-name {
 	font-family: "Suez One";
 	color: white;
 	font-weight: 700;
