@@ -40,15 +40,15 @@ body {
 	text-shadow: 12px 12px 0px gray;
 }
 
-table, th, tr, td {
+.stats table, th, tr, td {
 	border: 1px solid black;
 	border-collapse: collapse;	
 }
 
-table {
+.stats table {
 	font-size: 3rem;
 }
 
-td {
+.stats td {
 	font-size: 2rem;
 }
