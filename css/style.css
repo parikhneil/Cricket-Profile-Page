@@ -39,3 +39,16 @@ body {
 	margin-left: 4rem;
 	text-shadow: 12px 12px 0px gray;
 }
+
+table, th, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;	
+}
+
+table {
+	font-size: 3rem;
+}
+
+td {
+	font-size: 2rem;
+}
