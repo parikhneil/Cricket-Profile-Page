@@ -40,15 +40,24 @@ body {
 	text-shadow: 12px 12px 0px gray;
 }
 
-table, th, tr, td {
+table,
+th,
+tr,
+td {
 	border: 1px solid black;
-	border-collapse: collapse;	
+	border-collapse: collapse;
 }
 
-table {
+.table {
 	font-size: 3rem;
 }
 
 td {
 	font-size: 2rem;
+}
+
+@media screen and (max-width: 1475px) {
+	.profile-name {
+		font-size: 9rem;
+	}
 }
