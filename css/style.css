@@ -40,7 +40,7 @@ body {
 	text-shadow: 12px 12px 0px gray;
 }
 
-table,
+.stats table,
 th,
 tr,
 td {
@@ -52,7 +52,7 @@ td {
 	font-size: 3rem;
 }
 
-td {
+.stats td {
 	font-size: 2rem;
 }
 
