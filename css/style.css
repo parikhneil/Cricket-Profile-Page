@@ -33,8 +33,9 @@ body {
 	position: relative;
 	bottom: 420px;
 	font-family: "Suez One";
-	color: black;
+	color: white;
 	font-weight: 700;
 	font-size: 12.5rem;
 	margin-left: 4rem;
+	text-shadow: 12px 12px 0px gray;
 }
