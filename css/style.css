@@ -48,6 +48,10 @@ td {
 	border-collapse: collapse;
 }
 
+.stats {
+	align-content: center;
+}
+
 .table {
 	font-size: 3rem;
 }
