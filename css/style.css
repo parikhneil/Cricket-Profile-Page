@@ -43,7 +43,28 @@ body {
 	text-shadow: 12px 12px 0px gray;
 }
 
-.stats table,
+.stats-table {
+	bottom: 7%;
+	font-size: 3rem;
+	left: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	text-align: center;
+	/* transform: translate(0, -35px); */
+}
+
+.stats-table2 {
+	bottom: -10%;
+	font-size: 3rem;
+	left: 43%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	text-align: center;
+}
+
+.stats-table,
 th,
 tr,
 td {
@@ -51,15 +72,22 @@ td {
 	border-collapse: collapse;
 }
 
-.table {
-	position: absolute;
-	bottom: 10%;
-	left: 50%;
-	font-size: 3rem;
+.stats-table2,
+th,
+tr,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.stats-table,
+.stats-table2,
+th {
+	padding-right: 1rem;
+}
+
+th {
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	transform: translate(0, -35px);
 }
 
 .stats td {
