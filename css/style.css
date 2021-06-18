@@ -54,7 +54,7 @@ body {
 	/* transform: translate(0, -35px); */
 }
 
-.stats-table2 {	
+.stats-table2 {
 	bottom: -10%;
 	font-size: 3rem;
 	left: 43%;
@@ -64,7 +64,6 @@ body {
 	text-align: center;
 }
 
-
 .stats-table,
 th,
 tr,
@@ -73,12 +72,17 @@ td {
 	border-collapse: collapse;
 }
 
-.stats-table2, th, tr, td {
+.stats-table2,
+th,
+tr,
+td {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
 
-.stats-table, .stats-table2, th {
+.stats-table,
+.stats-table2,
+th {
 	padding-right: 1rem;
 }
 
@@ -86,27 +90,48 @@ th {
 	text-align: center;
 }
 
-
-
-
-
 .stats td {
 	font-size: 2rem;
 }
 
-@media screen and (max-width: 1475px) {
+@media screen and (max-width: 1570px) {
 	.profile-name {
 		font-size: 9rem;
-		bottom: 38rem;
+		bottom: 36rem;
 	}
-	.profile-picture {
-		height: 30rem;
-		width: 30rem;
+	.profile-image {
+		width: 36rem;
+		height: 36rem;
+	}
+	.profile-figure {
+		bottom: 40rem;
 	}
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1300px) {
 	.profile-name {
 		font-size: 7rem;
+		bottom: 33rem;
+	}
+	.profile-image {
+		width: 34rem;
+		height: 34rem;
+	}
+	.profile-figure {
+		bottom: 39rem;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.profile-name {
+		font-size: 5rem;
+		bottom: 30rem;
+	}
+	.profile-image {
+		width: 30rem;
+		height: 30rem;
+	}
+	.profile-figure {
+		bottom: 37rem;
 	}
 }
