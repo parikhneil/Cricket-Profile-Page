@@ -1,0 +1,54 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #999;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+.banner-image {
+	position: relative;
+	width: 100%;
+}
+
+tr {
+	background-color: red;
+}
+
+tr:nth-child(odd) {
+	background-color: blue;
+}
+
+
+
+.stats-table,
+th,
+tr,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.stats-table2,
+th,
+tr,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.stats-table,
+.stats-table2,
+th {
+	padding-right: 1rem;
+}
+
+th {
+	text-align: center;
+}
+
+.stats td {
+	font-size: 2rem;
+}
