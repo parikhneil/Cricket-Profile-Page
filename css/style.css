@@ -64,6 +64,16 @@ body {
 	text-align: center;
 }
 
+tr {
+	background-color: red;
+}
+
+tr:nth-child(odd) {
+	background-color: blue;
+}
+
+
+
 .stats-table,
 th,
 tr,
