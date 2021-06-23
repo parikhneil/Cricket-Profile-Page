@@ -29,3 +29,17 @@ body {
     height: 40rem;
     width: 40rem;
 }
+
+.profile-name-div {
+    text-align: center;
+}
+
+.profile-name {
+    font-family: "Suez One", serif;
+    color: white;
+    font-weight: 700;
+    font-size: 12.5rem; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 12px 12px 0px gray; 
+}
