@@ -42,4 +42,13 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     text-shadow: 12px 12px 0px gray; 
+    position: absolute;
+    bottom: 15rem;
+    left: 50rem;
+}
+
+/* Stats table */
+
+.stats {
+    margin-top: 7rem;
 }
