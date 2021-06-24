@@ -27,7 +27,7 @@ body {
     border-radius: 100px;
     border: 10px solid black;
     height: 40rem;
-    width: 40rem;
+    width: 40rem;    
 }
 
 .profile-name-div {
@@ -35,20 +35,58 @@ body {
 }
 
 .profile-name {
-    font-family: "Suez One", serif;
-    color: white;
-    font-weight: 700;
-    font-size: 12.5rem; 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-shadow: 12px 12px 0px gray; 
-    position: absolute;
     bottom: 15rem;
+    color: white;
+    font-family: "Suez One", serif;
+    font-size: 12.5rem; 
+    font-weight: 700;
     left: 50rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    text-shadow: 12px 12px 0px gray; 
 }
 
 /* Stats table */
 
 .stats {
     margin-top: 7rem;
+}
+
+.stats table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+.stats th {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.stats td {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #999;
+    color: white;
+}
+
+.format {
+    color: #000;
+    font-weight: 600;    
 }
