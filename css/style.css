@@ -77,13 +77,13 @@ h3 {
 }
 
 tr:nth-child(odd) {
-    background-color: white;
+    background-color: #90ee90;
     color: #000;
 }
 
 tr:nth-child(even) {
-    background-color: #999;
-    color: white;
+    background-color: #FFC0CB;
+    color: #000;
 }
 
 .format {
